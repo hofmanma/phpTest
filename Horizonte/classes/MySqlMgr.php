@@ -29,10 +29,10 @@ class MySqlMgr
          $this->m_passwd = $passwd;
          $this->m_ip = $ip;
 
-         $this->m_connection = @mysql_connect( "localhost",
-									$user,
-									$passwd,
-                                    "horizonte2");
+         $this->m_connection = @mysql_connect( "my-sql-horizonte.192.168.64.2.nip.io",
+									"root",
+									"",
+                                    "horizonte");
 
           if ( $this->m_connection == null ){
 
