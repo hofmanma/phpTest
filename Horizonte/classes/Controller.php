@@ -78,7 +78,7 @@
              
           if ( $view ){
 
-             $url = "http://hofmanma.dnsalias.com/Horizonte/%s";
+             $url = "http://phptest-horizonte.192.168.64.2.nip.io/Horizonte/%s";
              $url = sprintf( $url,  $view );
 
              header("Location: $url", false);
@@ -86,7 +86,7 @@
      }
      else{
 
-          header("Location: http://hofmanma.dnsalias.com/Horizonte/index.htm", true);
+          header("Location: http://phptest-horizonte.192.168.64.2.nip.io/Horizonte/index.htm", true);
      }
      
 ?>
