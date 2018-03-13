@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Auftritt bearbeiten</title>
+	</head>
+	<body background="backgr.jpeg">
+		<form action="http://hofmanma.dnsalias.com/Horizonte/classes/Controller.php"
+                      method="get">	
+			<input name="cmd" type="hidden" value="createAuftritt"/>
+		<table>				
+			<tr>		
+				<td valign="top">Datum:</td>
+				<td>
+					<input name="Datum" type="text" size="10" maxlength="10"/>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">Ort:</td>
+				<td>
+					<input name="Ort" type="text" size="30" maxlength="30"/>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">Beschreibung:</td>
+				<td><textarea name="Description" cols="50" rows="10">
+				    </textarea>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">Ablauf:</td>
+				<td><textarea  name="Notes" cols="50" rows="10">
+				    </textarea>
+				</td>
+			</tr>
+			<tr>
+				<td> <input type="submit" value="Speichern"> </td>
+			</tr>
+		</table>	
+	     </form>		
+	</body>
+</html>

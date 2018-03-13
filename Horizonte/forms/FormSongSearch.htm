@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Liedersuche</title>
+	</head>
+	<body background="backgr.jpeg">
+		<form action="http://hofmanma.dnsalias.com/Horizonte/classes/Controller.php"
+		      method="get">
+		<input name="cmd" type="hidden" value="findSongs"/>
+		<table>	
+			<tr>		
+				<td>Nummer:</td>
+				<td>
+					<input name="OrderNmb" type="text" size="10" maxlength="10"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Titel:</td>	
+				<td>					
+					<input name="Title" type="text" size="30" maxlength="30"/>
+				</td>
+			</tr>
+            <tr>
+				<td valign="top">Kategorie:</td>
+				<td>
+					<input name="Category" type="text" size="30" maxlength="30"/>
+				</td>
+			</tr>
+            <tr>
+				<td valign="top">Sub-Kategorie:</td>
+				<td>
+					<input name="Subcategory" type="text" size="30" maxlength="30"/>
+				</td>
+			</tr>
+			<tr>
+				<td> <input type="submit" value="Suche starten"/> </td>
+			</tr>
+		</table>	
+		</form>				
+	</body>
+</html>

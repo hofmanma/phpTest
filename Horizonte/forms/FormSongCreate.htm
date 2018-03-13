@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Lied bearbeiten</title>
+	</head>
+	<body background="backgr.jpeg">
+		<table>	
+			<form action="http://hofmanma.dnsalias.com/Horizonte/classes/Controller.php" method="get">
+			<input name="cmd" type="hidden" value="createSong"/>
+			<tr>		
+				<td valign="top">Nummer:</td>
+				<td>
+					<input name="OrderNmb" type="text" size="10" maxlength="10"/>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">Titel:</td>
+				<td>
+					<input name="Title" type="text" size="30" maxlength="30"/>
+				</td>
+			</tr>
+            <tr>
+				<td valign="top">Kategorie:</td>
+				<td>
+					<input name="Category" type="text" size="30" maxlength="30"/>
+				</td>
+			</tr>
+            <tr>
+				<td valign="top">Sub-Kategorie:</td>
+				<td>
+					<input name="Subcategory" type="text" size="30" maxlength="30"/>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">Beschreibung:</td>
+				<td>
+					<textarea name="Description" cols="50" rows="10">
+				    	</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">Hinweise:</td>
+				<td>
+					<textarea name="Notes" cols="50" rows="10">
+				    	</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td> 
+					<input type="submit" value="Speichern"/>
+				</td>
+			</tr>
+			</form>
+		</table>			
+	</body>
+</html>
+
